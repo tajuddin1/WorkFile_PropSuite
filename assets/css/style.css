@@ -324,6 +324,9 @@ p.cta-heading {
 .cta-image-wrapper {
   max-width: 290px;
 }
+.show-in-mobile{
+  display: none;
+}
 
 @media screen and (max-width:1480px) {
   .hero-text-wrapper {
@@ -617,6 +620,12 @@ p.cta-heading {
   .ticket-image-wrapper {
     margin-right: auto;
     margin-top: 20px;
+  }
+  .show-in-mobile{
+    display: block;
+  }
+  .hide-in-mobile{
+    display: none;
   }
 }
 
